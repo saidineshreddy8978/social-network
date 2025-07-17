@@ -1,0 +1,41 @@
+.post-container {
+    padding: 20px 20px;
+  }
+  .post-profile-section {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  .post-person-data {
+    margin-left: 15px;
+  }
+  .post-person-data h1 {
+    font-weight: bold;
+  }
+  .post-person-data h6 {
+    font-size: 13px;
+    color: #937379;
+  }
+  .post-info {
+    font-size: 15px;
+    color: #81666b;
+    padding: 10px 0px;
+  }
+  .bar{
+    position: relative;
+    left: 20px;
+    display:flex;
+    justify-content:start;
+    padding: 3px;
+    font-size: 20px;
+    gap: 40px;
+    flex-direction:row;
+  }
+  
+  .like,.dislike,.comment{
+    padding:4px 0px;
+    font: 16.125px inter,sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+  }

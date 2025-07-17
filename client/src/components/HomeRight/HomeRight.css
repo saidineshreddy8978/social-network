@@ -1,0 +1,40 @@
+.add-friend {
+  padding: 10px;
+  background-color: #d5e1f2;
+  border-radius: 50%;
+}
+.add-friend .add-icon {
+  font-weight: bold;
+}
+.profile-img .profile-details {
+  margin-left: 10px;
+}
+.friend-container {
+  padding: 10px 20px;
+}
+.back {
+  background-color: #0f6fec1a; 
+  color: #0f6fec; 
+  border-radius: 50%; 
+  padding: 8px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  width: 32px;
+  height: 32px; 
+  cursor: pointer; 
+}
+
+.suggestion-container{
+  border: 0.1px solid rgb(0,0,0,0.2);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); 
+  border-radius: 8px;
+}
+
+.news{
+  border: 0.1px solid rgb(0,0,0,0.2);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); 
+  border-radius: 8px;
+}
+
+

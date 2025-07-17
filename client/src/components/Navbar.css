@@ -1,0 +1,115 @@
+/* General Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px ;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Left Section */
+  .navbar-left {
+    display: flex;
+    position: relative;
+    left: 5rem;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background: #f0f2f5;
+    padding: 8px 12px;
+    border-radius: 20px;
+  }
+  
+  .search-icon {
+    font-size: 18px;
+    margin-right: 8px;
+    color: #666;
+  }
+  
+  .search-bar input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 14px;
+  }
+  
+  /* Center Section */
+  .navbar-center {
+    display: flex;
+    position: relative;
+    left: 11rem;
+    gap: 30px;
+  }
+  
+  .nav-item {
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .nav-item:hover,
+  .nav-item.active {
+    color: #007bff;
+  }
+  
+  /* Right Section */
+  .navbar-right {
+    position: relative;
+    right: 5rem;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  .icon {
+    font-size: 20px;
+    cursor: pointer;
+    color: #555;
+    transition: color 0.3s;
+  }
+  
+  .icon:hover {
+    color: #007bff;
+  }
+  
+  /* Notification Dot */
+  .bell-icon {
+    position: relative;
+  }
+  
+  .notification-dot {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    width: 8px;
+    height: 8px;
+    background: red;
+    border-radius: 50%;
+  }
+  
+  /* Profile Picture */
+  .profile-pic img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border 0.3s;
+  }
+  
+  .profile-pic img:hover {
+    border: 2px solid #007bff;
+  }
+  
